@@ -1,6 +1,6 @@
 node{
    stage('SCM Checkout'){
-     git 'https://github.com/ganesh-cmy-app.git'
+     git 'https://github.com/ganesh-c/my-app.git'
    }
    stage('Compile-Package'){
 
